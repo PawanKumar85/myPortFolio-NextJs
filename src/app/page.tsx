@@ -33,7 +33,9 @@ const Portfolio = () => {
             </div>
             {/* Portfolio page content */}
             <div className='flex min-h-[600px] items-center justify-center text-4xl font-bold'>
-                Portfolio
+                <h1>Portfolio</h1>
+<h1> Typescript,NextJs, Tailwind and MongoDB</h1>
+
             </div>
         </>
     )
