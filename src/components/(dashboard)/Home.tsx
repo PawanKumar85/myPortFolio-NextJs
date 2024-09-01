@@ -2,6 +2,7 @@ import React from 'react'
 import { FaEdit } from "react-icons/fa";
 
 const Home = () => {
+    
     return (
         <section className="text-gray-600 body-font mt-4">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
