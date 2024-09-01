@@ -42,7 +42,7 @@ const Login = () => {
             const response = await axios.post('/api/login', formData);
             toast.success('Logged in successfully!');
             resetForm();
-            router.push('/home');
+            router.push('/dashboard');
         } catch (error) {
             toast.error('Invalid credentials!');
             resetForm();
