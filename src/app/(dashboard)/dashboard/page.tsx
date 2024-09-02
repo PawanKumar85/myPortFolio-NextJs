@@ -16,11 +16,6 @@ const Dashboard = () => {
   const router = useRouter()
   const [isLoading, setIsLoading] = useState(false);
 
-
-
-
-  
-
   const handleLogout = async () => {
     setIsLoading(true);
     try {
