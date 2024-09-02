@@ -21,7 +21,7 @@ const Dashboard = () => {
     try {
       await axios.get("/api/logout");
       toast.success("Logout Successfully");
-      router.push("/login");
+      router.push("/");
     } catch (error: any) {
       toast.error(error.message || "An error occurred during logout.");
     } finally {
